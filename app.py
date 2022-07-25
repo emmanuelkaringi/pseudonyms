@@ -41,20 +41,18 @@ while True:
     #Choose a surname at random
     lastName = random.choice(surname)
     
-    print("\n\n")
+    print("\n")
     #Print the names to the screen in order and in red font
     print(firstName,lastName, file=sys.stderr)
     
-    print("\n\n")
+    print("\n")
     #Ask the user to quit or play again
     try_again = input("\n\nTry again?(Press Enter, else, Press n to quit)\n")
     #if user plays again:
         #repeat
-    # #if user quits:
+    #if user quits:
         #end and exit
     if try_again.lower()=="n":
         break
 input("\nPress Enter to exit")
-
-#Assign the name to a variable
 
